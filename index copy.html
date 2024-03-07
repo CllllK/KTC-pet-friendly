@@ -311,6 +311,25 @@
         });
     });
 </script>
+
+
+// -------------------------- added lines --------------------------
+const btns = document.getElementsByClassName('btn-filter') // ค้นหาร่ายชื่อ elements ที่มี class ชื่อ btn-filter
+for (let index = 0; index < btns.length; index++) { // loop ในรายชื่อ elements
+    const classList = btns[index].classList // ให้ classList เป็น list ของ class ใน element นั้น
+    if (classList.contains('active')) { // ถ้า classList มี active
+        const cate = btns[index].getAttribute('data-filter') // ให้ cate เป็นต่าของ data-filter(ซึ่งเป็นฉลากหนึ่งของ element ซึ่งฉลากนี้เรียกอีกอย่างว่า attribute)
+        if (cate == 'all') {
+            $('.filtr-item').show(); // แสดงทั้งหมด
+        } else {
+            $('.filtr-item').not('.' + cate).hide(); // ซ่อนอันที่ไม่ใช่
+            $('.filtr-item').filter('.' + cate).show(); // แสดงอันที่ใช่
+        }
+    }
+}
+// -------------------------- added lines --------------------------
+
+
 <script>
     $(document).ready(function () {
         $('.btn-filter').on("click", function () {

@@ -24,11 +24,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Start CSS -->
 <link rel="stylesheet" href="/pub/media/sites/domestic-hub/css/style_new_922022_4.css" />
 <style>
+
+.article-wrap-pet .article-title {
+    font-family: 'Conv_SukhumvitTadmai_Bol';
+    font-size: 25px;
+    line-height: 1.4;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.article-content {
+    font-family: 'Conv_PSL249pro';
+    font-size: 24px;
+    line-height: 30px;
+    clear: both;
+}
+p {
+    line-height: 1.4;
+	margin-bottom: 20px;
+    letter-spacing: 0;
+}
+.hightlight {
+    font-family: 'Conv_SukhumvitTadmai_Bol';
+    color: #CF3339;
+    font-size: 20px;
+}
 .card-promotion .card-text {
     line-height: 20px;
 }
 .card-promotion {
-    boder: unset !important;
+    border: unset !important;
     box-shadow: 0px -1px 5px 0px rgb(0 0 0 / 20%);
     border-radius: 6px !important;
     background: #fff;
@@ -39,7 +63,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	}
 	.filter-group{
 		display: flex;
-		width: fit-content;
+		width:fit-content;
 		}
 .btn-filter {
     border: 1px solid #CF3339;
@@ -69,6 +93,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	.mobile-overflow{
 		overflow-x: scroll;
 	}
+	
 .filter-group.owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 0;
 }
@@ -95,6 +120,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		margin-right: 5px;
 		margin-bottom: 10px;
 	}
+	.article-wrap .article-content .hightlight {
+		font-size: 16px;
+		font-family: 'Conv_SukhumvitTadmai_Bol';
+		color: #CF3339;
+	}
+	p {
+		font-size: 20px;
+		line-height: 1.2;
+	}
+	
 	}
 	@media screen and (max-width: 428px){
 	.btn-filter {
@@ -103,6 +138,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		margin-right: 5px;
 		margin-bottom: 10px;
 	}
+	.article-wrap .article-content .hightlight {
+		font-size: 16px;
+		font-family: 'Conv_SukhumvitTadmai_Bol';
+		color: #CF3339;
+	}
+	p {
+		font-size: 20px;
+		line-height: 1.2;
+	}
+	
 	}
 	@media screen and (max-width: 441px){
 	.btn-filter {
@@ -111,6 +156,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		margin-right: 5px;
 		margin-bottom: 10px;
 	}
+	.article-wrap .article-content .hightlight {
+		font-size: 16px;
+		font-family: 'Conv_SukhumvitTadmai_Bol';
+		color: #CF3339;
+	}
+	p {
+		font-size: 20px;
+		line-height: 1.2;
+	}
+	
 	}
 </style>
 <!-- End CSS -->
