@@ -91,7 +91,7 @@ p {
     color: #fff;
 }
 	.mobile-overflow{
-		overflow-x: scroll;
+		overflow-x: auto;
 	}
 	
 .filter-group.owl-theme .owl-nav.disabled + .owl-dots {
@@ -167,5 +167,8 @@ p {
 	}
 	
 	}
+#lang-change {
+margin-bottom: 0 !important;
+}
 </style>
 <!-- End CSS -->
